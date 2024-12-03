@@ -1,0 +1,97 @@
+@import url('http://fonts.googleapis.com/css2?family-Roboto:wght@500&display-swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: none;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;   /*<<<<---------------------------*/
+    background: linear-gradient(-45deg, #7f379b, #ffa26c);
+  }
+  
+  /* Main Box */
+  .box {
+  width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  /* Decorative Design */
+  .design {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, #6b73ff, #000dff);
+  }
+  
+  .design div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Form Styles */
+  .form {
+    padding: 30px 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #6b73ff;
+    box-shadow: 0 0 8px rgba(107, 115, 255, 0.4);
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #6b73ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #4e57e9;
+  }
+  
